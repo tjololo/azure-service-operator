@@ -1005,6 +1005,9 @@ objectModelConfiguration:
       Service_Backend:
         $exportAs: Backend
         $supportedFrom: v2.4.0
+      Service_Diagnostic:
+        $exportAs: Diagnostic
+        $supportedFrom: v2.11.0
       Service_NamedValue:
         $exportAs: NamedValue
         $supportedFrom: v2.4.0
